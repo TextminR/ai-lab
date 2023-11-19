@@ -1,4 +1,4 @@
-FROM pytorch/pytorch/:latest
+FROM pytorch/pytorch:latest
 
 WORKDIR /workspace
 
