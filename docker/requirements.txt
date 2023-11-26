@@ -5,3 +5,4 @@ git+https://github.com/huggingface/accelerate.git
 datasets
 scipy
 matplotlib
+wandb
