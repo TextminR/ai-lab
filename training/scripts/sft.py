@@ -84,6 +84,7 @@ class ScriptArguments(BaseModel):
 
 
 if __name__ == '__main__':
+  logging.basicConfig(level=logging.INFO)
 
   parser = ArgumentParser()
   parser.add_argument('config_path', type=str, help='Path to the training config file')
@@ -91,9 +92,14 @@ if __name__ == '__main__':
   
   if args.report_to_wandb and not args.wandb_project:
     raise ValueError('If reporting to wandb, please specify a project name.')
-  
   if args.report_to_wandb:
     os.environ['WANDB_PROJECT'] = args.wandb_project
+
+  if args.dataset_prompt_template is not None:
+    prompt_template = args.dataset_prompt_template
+  else:
+    logging.warning('No prompt template specified. Using default.')
+    prompt_template = '### Input: {} ### Response: {}'
 
   quantization_config = None
   device_map = None 
@@ -167,11 +173,6 @@ if __name__ == '__main__':
   tokenizer = AutoTokenizer.from_pretrained(args.model_name, use_fast=True, **args.tokenizer_kwargs)
   if args.tokenizer_use_eos_token:
     tokenizer.pad_token = tokenizer.eos_token
-  
-  if args.dataset_prompt_template is not None:
-    prompt_template = args.dataset_prompt_template
-  else:
-    prompt_template = '### Input: {} ### Response: {}'
 
   def formatting_prompts_func(examples):
     output_text = []
