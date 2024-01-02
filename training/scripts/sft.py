@@ -39,7 +39,6 @@ class ScriptArguments(BaseModel):
   job_name: str
     
   model_name: str
-  use_auth_token: bool = False
   trust_remote_code: bool = True
   tokenizer_kwargs: dict = None
   tokenizer_use_eos_token: bool = False
@@ -47,7 +46,7 @@ class ScriptArguments(BaseModel):
   dataset_name: str
   dataset_input_col: str
   dataset_response_col: str
-  seq_length: int = 512
+  seq_length: int
 
   use_peft: bool = False
   load_in_4bit: bool = False
@@ -55,16 +54,15 @@ class ScriptArguments(BaseModel):
   lora_r: int = 64
   lora_alpha: int = 16
   lora_dropout: float = 0.05
-  target_modules: List[str] = []
+  target_modules: List[str]
 
-  output_dir: str
-  logging_dir: str = None
-  num_train_epochs: int
+  output_dir: str = './output'
+  logging_dir: str = './logs'
+  num_train_epochs: int = 1
   warmup_steps: int = 0
   max_steps: int = -1
   learning_rate: float = 1e-3
   batch_size: int = 8
-  use_bf16: bool = True
   gradient_checkpointing: bool = False
   gradient_accumulation_steps: int = 16
   logging_steps: int = 10
@@ -95,11 +93,11 @@ if __name__ == '__main__':
   if args.report_to_wandb:
     os.environ['WANDB_PROJECT'] = args.wandb_project
 
-  if args.dataset_prompt_template is not None:
-    prompt_template = args.dataset_prompt_template
-  else:
+  if args.dataset_prompt_template is None:
     logging.warning('No prompt template specified. Using default.')
     prompt_template = '### Input: {} ### Response: {}'
+  else:
+    prompt_template = args.dataset_prompt_template
 
   if args.push_to_hub and not args.hub_model_id:
     raise ValueError('If pushing to hub, please specify a model id.')
@@ -128,7 +126,6 @@ if __name__ == '__main__':
     device_map=device_map,
     trust_remote_code=args.trust_remote_code,
     torch_dtype=torch.bfloat16,
-    use_auth_token=args.use_auth_token,
   )
   
   train_dataset = load_dataset(args.dataset_name, split='train')
@@ -144,7 +141,7 @@ if __name__ == '__main__':
     warmup_steps=args.warmup_steps,
     num_train_epochs=args.num_train_epochs,
     max_steps=args.max_steps,
-    bf16=args.use_bf16,
+    bf16=True,
     logging_strategy=args.logging_strategy,
     logging_steps=args.logging_steps,
     do_eval=args.do_eval,
