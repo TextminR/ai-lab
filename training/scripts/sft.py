@@ -129,9 +129,7 @@ if __name__ == '__main__':
   )
   
   train_dataset = load_dataset(args.dataset_name, split='train')
-  eval_dataset = None
-  if args.do_eval:
-    eval_dataset = load_dataset(args.dataset_name, split='validation')
+  eval_dataset = load_dataset(args.dataset_name, split='validation') if args.do_eval else None
   
   training_args = TrainingArguments(
     output_dir=args.output_dir,
