@@ -101,6 +101,9 @@ if __name__ == '__main__':
     logging.warning('No prompt template specified. Using default.')
     prompt_template = '### Input: {} ### Response: {}'
 
+  if args.push_to_hub and not args.hub_model_id:
+    raise ValueError('If pushing to hub, please specify a model id.')
+
   quantization_config = None
   device_map = None 
 
