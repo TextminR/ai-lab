@@ -127,7 +127,7 @@ if __name__ == '__main__':
     quantization_config=quantization_config,
     device_map=device_map,
     trust_remote_code=args.trust_remote_code,
-    torch_dtype=torch.float16,
+    torch_dtype=torch.bfloat16,
     use_auth_token=args.use_auth_token,
   )
   
