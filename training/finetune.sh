@@ -6,7 +6,7 @@ WANDB_TOKEN=
 AUTOSTOP=0
 
 # check if HF_TOKEN is set
-if [ -z "$HF_TOKEN_" ] || [ -z "$WANDB_TOKEN" ];
+if [ -z "$HF_TOKEN" ] || [ -z "$WANDB_TOKEN" ];
 then
     echo "Gotcha! Please set HF_TOKEN and WANDB_TOKEN before continuing."
     exit 1
