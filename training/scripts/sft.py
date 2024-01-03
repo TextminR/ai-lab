@@ -165,6 +165,7 @@ if __name__ == '__main__':
     hub_model_id=args.hub_model_id,
   )
   
+  peft_config = None
   if args.use_peft:
     peft_config = LoraConfig(
       r=args.lora_r,
@@ -174,8 +175,6 @@ if __name__ == '__main__':
       lora_dropout=args.lora_dropout,
       task_type=TaskType.CAUSAL_LM,
     )
-  else:
-    peft_config = None
   
   tokenizer = AutoTokenizer.from_pretrained(args.model_name, use_fast=True, **args.tokenizer_kwargs)
   if args.tokenizer_use_eos_token:
