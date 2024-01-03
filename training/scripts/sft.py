@@ -152,7 +152,7 @@ if __name__ == '__main__':
     logging_strategy=args.logging_strategy,
     logging_steps=args.logging_steps,
     do_eval=args.do_eval,
-    eval_strategy=args.eval_strategy,
+    evaluation_strategy=args.eval_strategy,
     eval_steps=args.eval_steps,
     save_strategy=args.save_strategy,
     save_steps=args.save_steps,
