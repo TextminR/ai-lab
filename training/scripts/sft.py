@@ -27,7 +27,8 @@ from peft import LoraConfig, TaskType
 from pydantic import BaseModel
 from tqdm import tqdm
 from transformers import (AutoModelForCausalLM, AutoTokenizer,
-                          BitsAndBytesConfig, TrainingArguments)
+                          BitsAndBytesConfig, TrainingArguments,
+                          DataCollatorForLanguageModeling)
 from trl import SFTTrainer, is_xpu_available
 
 tqdm.pandas()
@@ -65,7 +66,7 @@ class ScriptArguments(BaseModel):
   learning_rate: float = 1e-3
   batch_size: int = 8
   gradient_checkpointing: bool = False
-  gradient_accumulation_steps: int = 16
+  gradient_accumulation_steps: int = 1
   logging_steps: int = 10
   logging_strategy: str = 'steps'
   do_eval: bool = False
@@ -74,6 +75,7 @@ class ScriptArguments(BaseModel):
   save_strategy: str = 'no'
   save_steps: int = 0
   save_total_limit: int = 5
+  use_data_collator: bool = True
 
   report_to_wandb: bool = False
   wandb_project: str = None
@@ -194,6 +196,8 @@ if __name__ == '__main__':
     formatting_func=formatting_prompts_func,
     max_seq_length=args.seq_length,
     args=training_args,
+    data_collator=DataCollatorForLanguageModeling(tokenizer, mlm=False)
+      if args.use_data_collator else None,
   )
 
   trainer.train()
