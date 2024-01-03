@@ -2,10 +2,11 @@
   "job_name": "ner_mistral",
   "model_name": "mistralai/Mistral-7B-Instruct-v0.1",
   "tokenizer_kwargs": {
-    "padding_side": "left",
+    "padding_side": "right",
     "add_eos_token": true,
     "add_bos_token": true
   },
+  "tokenizer_use_eos_token": true,
   "dataset_name": "textminr/squad_v2",
   "dataset_context_col": "context",
   "dataset_instruction_col": "question",
