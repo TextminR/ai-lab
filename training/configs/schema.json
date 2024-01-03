@@ -1,0 +1,202 @@
+{
+  "title": "ScriptArguments",
+  "type": "object",
+  "properties": {
+    "job_name": {
+      "title": "Job Name",
+      "type": "string"
+    },
+    "model_name": {
+      "title": "Model Name",
+      "type": "string"
+    },
+    "trust_remote_code": {
+      "title": "Trust Remote Code",
+      "default": true,
+      "type": "boolean"
+    },
+    "tokenizer_kwargs": {
+      "title": "Tokenizer Kwargs",
+      "type": "object"
+    },
+    "tokenizer_use_eos_token": {
+      "title": "Tokenizer Use Eos Token",
+      "default": false,
+      "type": "boolean"
+    },
+    "dataset_prompt_template": {
+      "title": "Dataset Prompt Template",
+      "type": "string"
+    },
+    "dataset_name": {
+      "title": "Dataset Name",
+      "type": "string"
+    },
+    "dataset_context_col": {
+      "title": "Dataset Context Col",
+      "type": "string"
+    },
+    "dataset_instruction_col": {
+      "title": "Dataset Instruction Col",
+      "type": "string"
+    },
+    "dataset_response_col": {
+      "title": "Dataset Response Col",
+      "type": "string"
+    },
+    "seq_length": {
+      "title": "Seq Length",
+      "type": "integer"
+    },
+    "use_peft": {
+      "title": "Use Peft",
+      "default": false,
+      "type": "boolean"
+    },
+    "load_in_4bit": {
+      "title": "Load In 4Bit",
+      "default": false,
+      "type": "boolean"
+    },
+    "lora_r": {
+      "title": "Lora R",
+      "default": 64,
+      "type": "integer"
+    },
+    "lora_alpha": {
+      "title": "Lora Alpha",
+      "default": 16,
+      "type": "integer"
+    },
+    "lora_dropout": {
+      "title": "Lora Dropout",
+      "default": 0.05,
+      "type": "number"
+    },
+    "target_modules": {
+      "title": "Target Modules",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "output_dir": {
+      "title": "Output Dir",
+      "default": "./output",
+      "type": "string"
+    },
+    "logging_dir": {
+      "title": "Logging Dir",
+      "default": "./logs",
+      "type": "string"
+    },
+    "num_train_epochs": {
+      "title": "Num Train Epochs",
+      "default": 1,
+      "type": "integer"
+    },
+    "warmup_steps": {
+      "title": "Warmup Steps",
+      "default": 0,
+      "type": "integer"
+    },
+    "max_steps": {
+      "title": "Max Steps",
+      "default": -1,
+      "type": "integer"
+    },
+    "learning_rate": {
+      "title": "Learning Rate",
+      "default": 0.001,
+      "type": "number"
+    },
+    "batch_size": {
+      "title": "Batch Size",
+      "default": 8,
+      "type": "integer"
+    },
+    "gradient_checkpointing": {
+      "title": "Gradient Checkpointing",
+      "default": false,
+      "type": "boolean"
+    },
+    "gradient_accumulation_steps": {
+      "title": "Gradient Accumulation Steps",
+      "default": 1,
+      "type": "integer"
+    },
+    "logging_steps": {
+      "title": "Logging Steps",
+      "default": 10,
+      "type": "integer"
+    },
+    "logging_strategy": {
+      "title": "Logging Strategy",
+      "default": "steps",
+      "type": "string"
+    },
+    "do_eval": {
+      "title": "Do Eval",
+      "default": false,
+      "type": "boolean"
+    },
+    "eval_strategy": {
+      "title": "Eval Strategy",
+      "default": "no",
+      "type": "string"
+    },
+    "eval_steps": {
+      "title": "Eval Steps",
+      "default": 0,
+      "type": "integer"
+    },
+    "save_strategy": {
+      "title": "Save Strategy",
+      "default": "no",
+      "type": "string"
+    },
+    "save_steps": {
+      "title": "Save Steps",
+      "default": 0,
+      "type": "integer"
+    },
+    "save_total_limit": {
+      "title": "Save Total Limit",
+      "default": 5,
+      "type": "integer"
+    },
+    "use_data_collator": {
+      "title": "Use Data Collator",
+      "default": true,
+      "type": "boolean"
+    },
+    "report_to_wandb": {
+      "title": "Report To Wandb",
+      "default": false,
+      "type": "boolean"
+    },
+    "wandb_project": {
+      "title": "Wandb Project",
+      "type": "string"
+    },
+    "push_to_hub": {
+      "title": "Push To Hub",
+      "default": false,
+      "type": "boolean"
+    },
+    "hub_model_id": {
+      "title": "Hub Model Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "job_name",
+    "model_name",
+    "dataset_name",
+    "dataset_context_col",
+    "dataset_instruction_col",
+    "dataset_response_col",
+    "seq_length",
+    "target_modules"
+  ]
+}
