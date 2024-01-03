@@ -25,6 +25,8 @@
     "up_proj",
     "down_proj"
   ],
+  "batch_size": 3,
+  "gradient_accumulation_steps": 3,
   "warmup_steps": 100,
   "do_eval": true,
   "eval_strategy": "steps",
