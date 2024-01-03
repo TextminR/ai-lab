@@ -44,7 +44,8 @@ class ScriptArguments(BaseModel):
   tokenizer_use_eos_token: bool = False
   dataset_prompt_template: str = None
   dataset_name: str
-  dataset_input_col: str
+  dataset_context_col: str
+  dataset_instruction_col: str
   dataset_response_col: str
   seq_length: int
 
@@ -95,7 +96,7 @@ if __name__ == '__main__':
 
   if args.dataset_prompt_template is None:
     logging.warning('No prompt template specified. Using default.')
-    prompt_template = '### Input: {} ### Response: {}'
+    prompt_template = '### Context: {} ### Instruction: {} ### Response: {}'
   else:
     prompt_template = args.dataset_prompt_template
 
@@ -175,9 +176,10 @@ if __name__ == '__main__':
   def formatting_prompts_func(examples):
     output_text = []
     
-    for i in range(len(examples[args.dataset_input_col])):
+    for i in range(len(examples[args.dataset_instruction_col])):
       output_text.append(prompt_template.format(
-        examples[args.dataset_input_col][i],
+        examples[args.dataset_context_col][i],
+        examples[args.dataset_instruction_col][i],
         examples[args.dataset_response_col][i],
       ))
 
