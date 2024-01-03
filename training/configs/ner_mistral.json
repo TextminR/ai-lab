@@ -27,6 +27,7 @@
   ],
   "batch_size": 3,
   "gradient_accumulation_steps": 3,
+  "optim": "paged_adamw_8bit",
   "warmup_steps": 100,
   "do_eval": true,
   "eval_strategy": "steps",

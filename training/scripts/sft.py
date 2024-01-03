@@ -67,6 +67,7 @@ class ScriptArguments(BaseModel):
   batch_size: int = 8
   gradient_checkpointing: bool = False
   gradient_accumulation_steps: int = 1
+  optim: str
   logging_steps: int = 10
   logging_strategy: str = 'steps'
   do_eval: bool = False
@@ -114,7 +115,7 @@ if __name__ == '__main__':
 
   if args.load_in_4bit:
     quantization_config = BitsAndBytesConfig(
-      load_in_4bit=args.load_in_4bit,
+      load_in_4bit=True,
       bnb_4bit_use_double_quant=True,
       bnb_4bit_quant_type='nf4',
       bnb_4bit_compute_dtype=torch.bfloat16,
@@ -130,9 +131,9 @@ if __name__ == '__main__':
   model = AutoModelForCausalLM.from_pretrained(
     args.model_name,
     quantization_config=quantization_config,
-    device_map=device_map,
     trust_remote_code=args.trust_remote_code,
-    torch_dtype=torch.bfloat16,
+    torch_dtype=torch.float16,
+    device_map='auto',
   )
   
   train_dataset = load_dataset(args.dataset_name, split='train')
@@ -149,6 +150,7 @@ if __name__ == '__main__':
     num_train_epochs=args.num_train_epochs,
     max_steps=args.max_steps,
     bf16=True,
+    optim=args.optim,
     logging_strategy=args.logging_strategy,
     logging_steps=args.logging_steps,
     do_eval=args.do_eval,
