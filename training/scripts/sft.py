@@ -89,7 +89,7 @@ if __name__ == '__main__':
 
   parser = ArgumentParser()
   parser.add_argument('config_path', type=str, help='Path to the training config file')
-  args = ScriptArguments.parse_file(parser.parse_args().config_path)
+  args = ScriptArguments.model_validate_json(open(parser.parse_args().config_path, 'r').read())
   
   if args.report_to_wandb and not args.wandb_project:
     raise ValueError('If reporting to wandb, please specify a project name.')
