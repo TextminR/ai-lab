@@ -19,7 +19,7 @@ python3 scripts/train_lora.py \
     --gradient_accumulation_steps 1 \
     --warmup_steps 100 \
     --num_train_epochs 1 \
-    --learning_rate 3e-4 \
+    --learning_rate 1e-4 \
     --optim paged_adamw_8bit \
     --logging_strategy steps \
     --logging_steps 25 \
