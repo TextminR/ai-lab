@@ -1,4 +1,5 @@
-torchrun --standalone --nnodes=1 --nproc_per_node=1 scripts/train_lora.py \
+# torchrun --standalone --nnodes=1 --nproc_per_node=1 scripts/train_lora.py \
+python3 scripts/train_lora.py \
     --model_name_or_path mistralai/Mistral-7B-Instruct-v0.1 \
     --data_path textminr/squad_v2 \
     --add_eos_token True \
