@@ -5,8 +5,8 @@ torchrun --standalone --nnodes=1 --nproc_per_node=1 scripts/train_lora.py \
     --add_bos_token True \
     --max_seq_length 256 \
     --padding_side "left" \
-    --lora_r 8 \
-    --lora_alpha 16 \
+    --lora_r 32 \
+    --lora_alpha 64 \
     --lora_dropout 0.05 \
     --q_lora True \
     --bf16 True \
@@ -32,6 +32,6 @@ torchrun --standalone --nnodes=1 --nproc_per_node=1 scripts/train_lora.py \
     --metric_for_best_model loss \
     --greater_is_better False \
     --report_to wandb \
-    --run_name ner_mistral_squad_test2 \
+    --run_name ner_mistral_squad_test2_higher_lora \
     --wandb_project ner_mistral_qlora \
     --wandb_enable_checkpointing True
