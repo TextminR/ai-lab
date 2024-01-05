@@ -18,23 +18,23 @@ Jones et al. (2021) zeigen in ihrer Forschung, dass die Digitalisierung das Verh
 Die Auswirkungen von stressbedingten Erkrankungen auf die Arbeitsleistung werden von Schneider in seiner aktuellen Studie von 2022 beleuchtet.
 
 --- Direkte Erwähnung ---
-"In seinem 2020 erschienenen Buch 'Die Zukunft der Technologie' betont Karl Neumann die Bedeutung von Künstlicher Intelligenz in der modernen Gesellschaft."
-"Laut einer Studie von Dr. Lisa Hoffmann aus dem Jahr 2018 hat der Klimawandel einen direkten Einfluss auf die Nahrungsketten im Ozean."
-"Wie Professor Jürgen Schröder in seinem Artikel von 2019 erklärte, sind politische Entscheidungen oft stark von historischen Ereignissen beeinflusst."
-"Maria Weber, in ihrem Interview von 2021, spricht über die Herausforderungen bei der Gründung eines Start-ups in der heutigen Wirtschaftslage."
-"Der Historiker Andreas Bauer erwähnt in seiner Veröffentlichung von 2017 die Bedeutung des römischen Erbes für die europäische Kultur."
-"In ihrer Analyse des Wahlverhaltens, die 2022 veröffentlicht wurde, stellt Dr. Susanne Klein fest, dass soziale Medien eine zunehmend wichtige Rolle spielen."
-"Der Journalist Thomas Richter hat in seinem Bericht von 2019 die Auswirkungen der Globalisierung auf lokale Märkte detailliert beschrieben."
-"Die jüngste Forschung von Professor Müller und Dr. Schmidt aus dem Jahr 2023 hebt die Rolle von erneuerbaren Energien in der zukünftigen Energiepolitik hervor."
-"In ihrer gemeinsamen Studie von 2016 diskutieren Dr. Wagner und Dr. Meier die Auswirkungen von Bildungspolitik auf die soziale Mobilität."
-"Das bahnbrechende Projekt von Forscherin Anna Becker, veröffentlicht im Jahr 2020, erforscht die Möglichkeiten von Quantencomputern in der Medizin."
-"In seinem Vortrag von 2017 erklärt Experte Michael Lehmann die Zusammenhänge zwischen urbaner Entwicklung und sozialer Gerechtigkeit."
-"Die aktuellen Erkenntnisse von Dr. Fischer und Professor Müller (2024) zeigen, dass technologische Innovationen einen Schlüssel zur Bewältigung globaler Herausforderungen darstellen."
-"Die Debatte über künstliche Intelligenz wird in einem kürzlich veröffentlichten Artikel von Dr. Hoffmann und Professor Weber aus dem Jahr 2022 vertieft."
-"Laut einer bahnbrechenden Veröffentlichung von Dr. Klein und Dr. Schröder im Jahr 2018 spielen psychologische Faktoren eine entscheidende Rolle in politischen Entscheidungsprozessen."
-"Der renommierte Ökonom Markus Vogel betont in seinem Buch von 2019 die Notwendigkeit einer globalen Zusammenarbeit zur Bewältigung wirtschaftlicher Krisen."
-"In ihrer umfassenden Studie von 2021 zeigen Dr. Richter und Maria Weber, dass der demografische Wandel erhebliche Auswirkungen auf die Arbeitsmärkte haben wird."
-"Die jüngste Veröffentlichung von Dr. Klein und Professor Bauer (2018) wirft einen kritischen Blick auf die Rolle von Medien in der Formung öffentlicher Meinungen."
+In seinem 2020 erschienenen Buch 'Die Zukunft der Technologie' betont Karl Neumann die Bedeutung von Künstlicher Intelligenz in der modernen Gesellschaft.
+Laut einer Studie von Dr. Lisa Hoffmann aus dem Jahr 2018 hat der Klimawandel einen direkten Einfluss auf die Nahrungsketten im Ozean.
+Wie Professor Jürgen Schröder in seinem Artikel von 2019 erklärte, sind politische Entscheidungen oft stark von historischen Ereignissen beeinflusst.
+Maria Weber, in ihrem Interview von 2021, spricht über die Herausforderungen bei der Gründung eines Start-ups in der heutigen Wirtschaftslage.
+Der Historiker Andreas Bauer erwähnt in seiner Veröffentlichung von 2017 die Bedeutung des römischen Erbes für die europäische Kultur.
+In ihrer Analyse des Wahlverhaltens, die 2022 veröffentlicht wurde, stellt Dr. Susanne Klein fest, dass soziale Medien eine zunehmend wichtige Rolle spielen.
+Der Journalist Thomas Richter hat in seinem Bericht von 2019 die Auswirkungen der Globalisierung auf lokale Märkte detailliert beschrieben.
+Die jüngste Forschung von Professor Müller und Dr. Schmidt aus dem Jahr 2023 hebt die Rolle von erneuerbaren Energien in der zukünftigen Energiepolitik hervor.
+In ihrer gemeinsamen Studie von 2016 diskutieren Dr. Wagner und Dr. Meier die Auswirkungen von Bildungspolitik auf die soziale Mobilität.
+Das bahnbrechende Projekt von Forscherin Anna Becker, veröffentlicht im Jahr 2020, erforscht die Möglichkeiten von Quantencomputern in der Medizin.
+In seinem Vortrag von 2017 erklärt Experte Michael Lehmann die Zusammenhänge zwischen urbaner Entwicklung und sozialer Gerechtigkeit.
+Die aktuellen Erkenntnisse von Dr. Fischer und Professor Müller (2024) zeigen, dass technologische Innovationen einen Schlüssel zur Bewältigung globaler Herausforderungen darstellen.
+Die Debatte über künstliche Intelligenz wird in einem kürzlich veröffentlichten Artikel von Dr. Hoffmann und Professor Weber aus dem Jahr 2022 vertieft.
+Laut einer bahnbrechenden Veröffentlichung von Dr. Klein und Dr. Schröder im Jahr 2018 spielen psychologische Faktoren eine entscheidende Rolle in politischen Entscheidungsprozessen.
+Der renommierte Ökonom Markus Vogel betont in seinem Buch von 2019 die Notwendigkeit einer globalen Zusammenarbeit zur Bewältigung wirtschaftlicher Krisen.
+In ihrer umfassenden Studie von 2021 zeigen Dr. Richter und Maria Weber, dass der demografische Wandel erhebliche Auswirkungen auf die Arbeitsmärkte haben wird.
+Die jüngste Veröffentlichung von Dr. Klein und Professor Bauer (2018) wirft einen kritischen Blick auf die Rolle von Medien in der Formung öffentlicher Meinungen.
 
 --- Indirekte Erwähnung ---
 Eine kürzlich veröffentlichte Studie hat gezeigt, dass Schlafmangel die Produktivität erheblich beeinträchtigt, eine Erkenntnis, die auf Forschungen eines bekannten deutschen Psychologen aus dem Jahr 2019 basiert.
@@ -44,16 +44,16 @@ Eine von einem Team aus Berliner Wissenschaftlern im Jahr 2020 durchgeführte St
 In Diskussionen über Klimawandel wird oft auf eine wegweisende Untersuchung aus dem Jahr 2017 Bezug genommen, die den Anstieg der Meeresspiegel dokumentiert.
 Die in einem Artikel von 2021 vorgestellten Erkenntnisse über Künstliche Intelligenz sind in der technologischen Gemeinschaft weit verbreitet und anerkannt.
 In Bezug auf moderne Kunsttheorien wird häufig eine Perspektive zitiert, die erstmals von einer Gruppe Pariser Künstler im Jahr 2018 formuliert wurde.
-"Die neuesten Erkenntnisse über den Zusammenhang zwischen Ernährung und geistiger Gesundheit stammen aus einer umfangreichen Studie von Dr. Müller und seinem Team im Jahr 2022."
-"Im Bereich der Astrophysik haben Forscher kürzlich eine bahnbrechende Theorie aus dem Jahr 2019 entwickelt, die die Natur der Dunklen Materie näher beleuchtet."
-"Der renommierte Wirtschaftswissenschaftler Prof. Schneider hat in seinem Buch von 2020 eine innovative Analyse zur Zukunft der globalen Finanzmärkte veröffentlicht."
-"Die Auswirkungen von Urbanisierung auf das ökologische Gleichgewicht wurden in einer Forschungsarbeit aus dem Jahr 2016 von Dr. Weber und Kollegen genauer untersucht."
-"In seinem 2018 erschienenen Artikel argumentiert Dr. Fischer, dass die Integration von künstlicher Intelligenz in Bildungseinrichtungen revolutionäre Veränderungen ermöglichen kann."
-"Die politischen Entwicklungen im Nahen Osten werden in einer aktuellen Veröffentlichung von Prof. Becker und seinem Team aus dem Jahr 2021 aus einer historischen Perspektive betrachtet."
-"Die Forschungsergebnisse aus dem Jahr 2017 von Dr. Lehmann und Dr. Schröder zeigen, dass soziale Ungleichheit einen erheblichen Einfluss auf die Bildungschancen junger Menschen hat."
-"Die Debatte über den Einsatz von Genom-Editing in der Landwirtschaft wird durch eine wegweisende Studie von Dr. Wagner und Dr. Meier aus dem Jahr 2023 intensiviert."
-"Die aktuelle Diskussion über Raumfahrt und interplanetare Erkundung basiert auf einer Theorie, die erstmals von Dr. Klein und Kollegen im Jahr 2019 vorgestellt wurde."
-"Die Herausforderungen der nachhaltigen Stadtentwicklung werden in einer Forschungsarbeit von Prof. Bauer und seinem Team, die 2021 veröffentlicht wurde, kritisch analysiert."
+Die neuesten Erkenntnisse über den Zusammenhang zwischen Ernährung und geistiger Gesundheit stammen aus einer umfangreichen Studie von Dr. Müller und seinem Team im Jahr 2022.
+Im Bereich der Astrophysik haben Forscher kürzlich eine bahnbrechende Theorie aus dem Jahr 2019 entwickelt, die die Natur der Dunklen Materie näher beleuchtet.
+Der renommierte Wirtschaftswissenschaftler Prof. Schneider hat in seinem Buch von 2020 eine innovative Analyse zur Zukunft der globalen Finanzmärkte veröffentlicht.
+Die Auswirkungen von Urbanisierung auf das ökologische Gleichgewicht wurden in einer Forschungsarbeit aus dem Jahr 2016 von Dr. Weber und Kollegen genauer untersucht.
+In seinem 2018 erschienenen Artikel argumentiert Dr. Fischer, dass die Integration von künstlicher Intelligenz in Bildungseinrichtungen revolutionäre Veränderungen ermöglichen kann.
+Die politischen Entwicklungen im Nahen Osten werden in einer aktuellen Veröffentlichung von Prof. Becker und seinem Team aus dem Jahr 2021 aus einer historischen Perspektive betrachtet.
+Die Forschungsergebnisse aus dem Jahr 2017 von Dr. Lehmann und Dr. Schröder zeigen, dass soziale Ungleichheit einen erheblichen Einfluss auf die Bildungschancen junger Menschen hat.
+Die Debatte über den Einsatz von Genom-Editing in der Landwirtschaft wird durch eine wegweisende Studie von Dr. Wagner und Dr. Meier aus dem Jahr 2023 intensiviert.
+Die aktuelle Diskussion über Raumfahrt und interplanetare Erkundung basiert auf einer Theorie, die erstmals von Dr. Klein und Kollegen im Jahr 2019 vorgestellt wurde.
+Die Herausforderungen der nachhaltigen Stadtentwicklung werden in einer Forschungsarbeit von Prof. Bauer und seinem Team, die 2021 veröffentlicht wurde, kritisch analysiert.
 
 --- Zitate und Zitierungn ---
 Wie Goethe einst sagte: "Es irrt der Mensch, solang er strebt." Dieses Zitat aus dem Jahr 1808 spiegelt die tiefe philosophische Sichtweise des Autors wider.
@@ -95,13 +95,13 @@ Die Auswirkungen von Big Data auf das Gesundheitswesen werden in der Forschung v
 Die Wechselwirkungen zwischen Umweltverschmutzung und menschlicher Gesundheit sind das zentrale Thema der Arbeit von Fischer und Schulz (2019).
 
 --- Historische und bibliographische Referenzen ---
-"Das politische Klima im Europa des 19. Jahrhunderts, insbesondere die Auswirkungen der Französischen Revolution, wie von Schmidt (2001) detailliert beschrieben, hatte einen tiefgreifenden Einfluss auf die philosophischen Werke von Hegel."
-"In seiner 1960 veröffentlichten Biographie über Mozart beleuchtet Müller die musikalische Entwicklung des Komponisten vor dem Hintergrund der kulturellen und sozialen Veränderungen Wiens im 18. Jahrhundert."
-"Die Entwicklung der Quantenphysik, wie von Fischer in ihrer 2015 erschienenen Arbeit dargelegt, kann nicht ohne Bezugnahme auf die wissenschaftlichen Revolutionen des frühen 20. Jahrhunderts verstanden werden."
-"In 'Die Geschichte der Seidenstraße' (Weber, 1999) wird deutlich, wie Handelswege nicht nur Waren, sondern auch Ideen und Kulturen über Kontinente hinweg verbreiten konnten."
-"Die Bedeutung der Reformation für die europäische Geschichte, wie in Krauses Analyse von 1987 detailliert, ist nicht nur in religiöser, sondern auch in sozialer und politischer Hinsicht zu sehen."
-"Lehmanns Untersuchung der Weimarer Republik (2003) bietet einen umfassenden Überblick über die politischen und ökonomischen Herausforderungen Deutschlands in der Zwischenkriegszeit."
-"In ihrem Buch über die Entwicklung der modernen Kunst (Schulz, 2022) wird der Einfluss von historischen Ereignissen wie dem Zweiten Weltkrieg auf die Kunstströmungen des 20. Jahrhunderts untersucht."
+Das politische Klima im Europa des 19. Jahrhunderts, insbesondere die Auswirkungen der Französischen Revolution, wie von Schmidt (2001) detailliert beschrieben, hatte einen tiefgreifenden Einfluss auf die philosophischen Werke von Hegel.
+In seiner 1960 veröffentlichten Biographie über Mozart beleuchtet Müller die musikalische Entwicklung des Komponisten vor dem Hintergrund der kulturellen und sozialen Veränderungen Wiens im 18. Jahrhundert.
+Die Entwicklung der Quantenphysik, wie von Fischer in ihrer 2015 erschienenen Arbeit dargelegt, kann nicht ohne Bezugnahme auf die wissenschaftlichen Revolutionen des frühen 20. Jahrhunderts verstanden werden.
+In 'Die Geschichte der Seidenstraße' (Weber, 1999) wird deutlich, wie Handelswege nicht nur Waren, sondern auch Ideen und Kulturen über Kontinente hinweg verbreiten konnten.
+Die Bedeutung der Reformation für die europäische Geschichte, wie in Krauses Analyse von 1987 detailliert, ist nicht nur in religiöser, sondern auch in sozialer und politischer Hinsicht zu sehen.
+Lehmanns Untersuchung der Weimarer Republik (2003) bietet einen umfassenden Überblick über die politischen und ökonomischen Herausforderungen Deutschlands in der Zwischenkriegszeit.
+In ihrem Buch über die Entwicklung der modernen Kunst (Schulz, 2022) wird der Einfluss von historischen Ereignissen wie dem Zweiten Weltkrieg auf die Kunstströmungen des 20. Jahrhunderts untersucht.
 Die politische Landschaft im Europa des 19. Jahrhunderts, insbesondere die Auswirkungen der Französischen Revolution, wie von Schmidt (2001) detailliert beschrieben, hatte einen tiefgreifenden Einfluss auf die philosophischen Werke von Hegel.
 In seiner 1960 veröffentlichten Biographie über Mozart beleuchtet Müller die musikalische Entwicklung des Komponisten vor dem Hintergrund der kulturellen und sozialen Veränderungen Wiens im 18. Jahrhundert.
 Die Entwicklung der Quantenphysik, wie von Fischer in ihrer 2015 erschienenen Arbeit dargelegt, kann nicht ohne Bezugnahme auf die wissenschaftlichen Revolutionen des frühen 20. Jahrhunderts verstanden werden.
@@ -115,7 +115,8 @@ In ihrer umfassenden Studie von 2005 beleuchtet Wagner die historische Entwicklu
 Die philosophischen Ideen von Schröder, die er in seinem Buch von 1992 präsentiert, werfen einen kritischen Blick auf die Postmoderne und deren Auswirkungen auf das Denken in der Gegenwart.
 In der politischen Analyse von 2008 zeigt Meier auf, wie sich der arabische Frühling auf die politische Landschaft im Nahen Osten auswirkte und zu tiefgreifenden Veränderungen führte.
 Die Forschung von Schulz und Weber aus dem Jahr 2016 untersucht die Herausforderungen und Chancen der globalen Migration im Kontext von Flüchtlingsbewegungen und Arbeitsmigration.
-In ihrem Artikel von 2012 analysiert Fischer die Verbindung zwischen ökonomischen Ungleichheiten und sozialen Unruhen in verschiedenen Gesellschaften im Laufe der Geschichte."In 'Die Architektur der Zukunft' (Lehmann, 2018) skizziert die Architekturhistorikerin die sich verändernden Prinzipien und Technologien, die die Baukunst im 21. Jahrhundert prägen.
+In ihrem Artikel von 2012 analysiert Fischer die Verbindung zwischen ökonomischen Ungleichheiten und sozialen Unruhen in verschiedenen Gesellschaften im Laufe der Geschichte.
+In 'Die Architektur der Zukunft' (Lehmann, 2018) skizziert die Architekturhistorikerin die sich verändernden Prinzipien und Technologien, die die Baukunst im 21. Jahrhundert prägen.
 
 --- Zeitungsartikel und generell Medien ---
 Wie in einem Artikel der 'Frankfurter Allgemeine Zeitung' vom 10. März 2023 berichtet wurde, hat die Regierung neue Maßnahmen zur Förderung erneuerbarer Energien eingeführt.
