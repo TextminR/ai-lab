@@ -112,7 +112,7 @@ def train():
 
     print(training_args.report_to)
 
-    if training_args.report_to.lower() == "wandb" and not wandb_args.wandb_project:
+    if training_args.report_to[0].lower() == "wandb" and not wandb_args.wandb_project:
         raise ValueError(
             "You must specify a wandb project name with --wandb_project when using wandb."
         )
