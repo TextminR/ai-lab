@@ -20,6 +20,7 @@ python3 scripts/train_lora.py \
     --warmup_steps 100 \
     --num_train_epochs 1 \
     --learning_rate 1e-4 \
+    --lr_scheduler_type "cosine" \
     --optim paged_adamw_8bit \
     --logging_strategy steps \
     --logging_steps 25 \
