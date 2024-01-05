@@ -6,8 +6,8 @@ python3 scripts/train_lora.py \
     --add_bos_token True \
     --max_seq_length 256 \
     --padding_side "left" \
-    --lora_r 128 \
-    --lora_alpha 256 \
+    --lora_r 256 \
+    --lora_alpha 512 \
     --lora_dropout 0.05 \
     --q_lora True \
     --bf16 True \
@@ -33,6 +33,6 @@ python3 scripts/train_lora.py \
     --metric_for_best_model loss \
     --greater_is_better False \
     --report_to wandb \
-    --run_name mistral_squad_2_massive_lora \
+    --run_name mistral_squad_2_massive_lora_2 \
     --wandb_project ner_mistral_qlora \
     --wandb_enable_checkpointing True
