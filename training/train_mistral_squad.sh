@@ -33,6 +33,6 @@ python3 scripts/train_lora.py \
     --metric_for_best_model loss \
     --greater_is_better False \
     --report_to wandb \
-    --run_name ner_mistral_squad_test2_massive_lora \
+    --run_name mistral_squad_2_massive_lora \
     --wandb_project ner_mistral_qlora \
     --wandb_enable_checkpointing True
