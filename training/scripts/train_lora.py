@@ -47,7 +47,6 @@ class TokenizerArguments:
     max_seq_length: int = 512
     padding_side: str = "right"
 
-
 @dataclass
 class LoraArguments:
     lora_r: int = 8
@@ -182,7 +181,7 @@ def train():
         result = tokenizer(
             sample["text"],
             padding="max_length",
-            max_length=training_args.max_seq_length,
+            max_length=tokenizer_args.max_seq_length,
             truncation=True,
         )
         result["labels"] = result["input_ids"].copy()
