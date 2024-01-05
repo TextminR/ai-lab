@@ -110,6 +110,8 @@ def train():
         wandb_args,
     ) = parser.parse_args_into_dataclasses()
 
+    print(training_args.report_to)
+
     if training_args.report_to.lower() == "wandb" and not wandb_args.wandb_project:
         raise ValueError(
             "You must specify a wandb project name with --wandb_project when using wandb."
@@ -152,9 +154,9 @@ def train():
 
     lora_config = LoraConfig(
         r=lora_args.lora_r,
-        alpha=lora_args.lora_alpha,
+        lora_alpha=lora_args.lora_alpha,
         target_modules=lora_args.lora_target_modules,
-        dropout=lora_args.lora_dropout,
+        lora_dropout=lora_args.lora_dropout,
         bias=lora_args.lora_bias,
         task_type=TaskType.CAUSAL_LM,
     )
