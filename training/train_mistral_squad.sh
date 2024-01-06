@@ -13,14 +13,13 @@ python3 scripts/train_lora.py \
     --bf16 True \
     --output_dir output/mistral_squad \
     --logging_dir logs \
-    --per_device_train_batch_size 16 \
-    --per_device_eval_batch_size 16 \
+    --per_device_train_batch_size 32 \
+    --per_device_eval_batch_size 32 \
     --gradient_checkpointing True \
     --gradient_accumulation_steps 1 \
     --warmup_steps 100 \
     --num_train_epochs 1 \
     --learning_rate 1e-4 \
-    --lr_scheduler_type "cosine" \
     --optim paged_adamw_8bit \
     --logging_strategy steps \
     --logging_steps 25 \
@@ -34,6 +33,6 @@ python3 scripts/train_lora.py \
     --metric_for_best_model loss \
     --greater_is_better False \
     --report_to wandb \
-    --run_name mistral_squad_2_massive_lora_2 \
+    --run_name mistral_squad_2_final \
     --wandb_project ner_mistral_qlora \
     --wandb_enable_checkpointing True
