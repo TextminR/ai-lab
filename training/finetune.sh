@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # == USER SETTINGS == #
-HF_TOKEN=
-WANDB_TOKEN=
+HF_TOKEN=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
+WANDB_TOKEN=8949230cd2fb227b199598ff49dcd45107ae63aa
 AUTOSTOP=0
 
 # check if HF_TOKEN is set

@@ -27,7 +27,7 @@ def split_data(input_file, train_file, val_file, train_ratio=0.8):
             file.write(json.dumps(entry) + '\n')
 
 # File paths
-input_file_path = 'data/data.jsonl'  # Replace with your file path
+input_file_path = 'data/ner_data_augmented.jsonl'  # Replace with your file path
 train_file_path = 'data/train.jsonl'
 val_file_path = 'data/val.jsonl'
 
