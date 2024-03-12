@@ -7,15 +7,15 @@ python3 scripts/train_lora.py \
     --add_bos_token True \
     --max_seq_length 256 \
     --padding_side "left" \
-    --lora_r 256 \
-    --lora_alpha 512 \
+    --lora_r 16 \
+    --lora_alpha 16 \
     --lora_dropout 0.05 \
     --q_lora True \
     --bf16 True \
     --output_dir output/mistral_tl \
     --logging_dir logs \
-    --per_device_train_batch_size 32 \
-    --per_device_eval_batch_size 32 \
+    --per_device_train_batch_size 16 \
+    --per_device_eval_batch_size 16 \
     --gradient_checkpointing True \
     --gradient_accumulation_steps 1 \
     --warmup_steps 100 \
@@ -23,7 +23,7 @@ python3 scripts/train_lora.py \
     --learning_rate 1e-4 \
     --optim paged_adamw_8bit \
     --logging_strategy steps \
-    --logging_steps 25 \
+    --logging_steps 5 \
     --save_strategy steps \
     --save_steps 1000 \
     --save_total_limit 2 \
