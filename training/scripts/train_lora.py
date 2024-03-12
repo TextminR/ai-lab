@@ -32,6 +32,7 @@ from transformers import (AutoModelForCausalLM, AutoTokenizer,
 @dataclass
 class DataArguments:
     data_path: str
+    subset: Optional[str] = None
 
 
 @dataclass
@@ -187,7 +188,7 @@ def train():
         result["labels"] = result["input_ids"].copy()
         return result
 
-    dataset = load_dataset(data_args.data_path).map(tokenize_sample)
+    dataset = load_dataset(data_args.data_path, data_args.subset).map(tokenize_sample)
 
     trainer = Trainer(
         model=model,

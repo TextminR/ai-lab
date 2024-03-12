@@ -2,6 +2,7 @@
 python3 scripts/train_lora.py \
     --model_name_or_path mistralai/Mistral-7B-Instruct-v0.2 \
     --data_path textminr/topic-labeling \
+    --subset gutenberg \
     --add_eos_token True \
     --add_bos_token True \
     --max_seq_length 256 \
