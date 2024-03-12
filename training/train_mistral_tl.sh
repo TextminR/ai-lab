@@ -18,14 +18,14 @@ python3 scripts/train_lora.py \
     --per_device_eval_batch_size 16 \
     --gradient_checkpointing True \
     --gradient_accumulation_steps 1 \
-    --warmup_steps 100 \
+    --warmup_steps 5 \
     --num_train_epochs 1 \
     --learning_rate 1e-4 \
     --optim paged_adamw_8bit \
     --logging_strategy steps \
     --logging_steps 5 \
     --save_strategy steps \
-    --save_steps 1000 \
+    --save_steps 20 \
     --save_total_limit 2 \
     --do_eval True \
     --evaluation_strategy steps \
