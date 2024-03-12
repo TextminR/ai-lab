@@ -207,6 +207,8 @@ def train():
     else:
         trainer.train()
 
+    trainer.save_model()
+
 
 if __name__ == "__main__":
     train()
